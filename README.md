@@ -14,7 +14,7 @@
      auto_conveyor_control.py 
 <br> auto_conveyor_control_aruco.py
 <br> realsense_camera.py
-<br> Yolov8x_mango.pt [Download Here](https://drive.google.com/file/d/1tRlFyRb7xSoRe0V4f7Gs9ZHWKA-lsY7o/view?usp=sharing)
+<br> Yolov8x_mango.pt <a href="https://drive.google.com/file/d/1tRlFyRb7xSoRe0V4f7Gs9ZHWKA-lsY7o/view?usp=sharing">[Download Here]</a>
 <br> test_arduino_connection.py
 </p>
 
