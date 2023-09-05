@@ -18,4 +18,5 @@ def speedCon(speeds):
     pwm = (rpm/800)/5
     speed.write(pwm) 
 
+# เซ็ตความเร็วเป็น 0
 speedCon(0)
