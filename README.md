@@ -11,7 +11,9 @@
 
 ### Important Files
 <p>
-     auto_conveyor_control.py 
+ <i>**must be kept together in same folder**</i>
+ 
+<br> auto_conveyor_control.py 
 <br> auto_conveyor_control_aruco.py
 <br> realsense_camera.py
 <br> Yolov8x_mango.pt <a href="https://drive.google.com/file/d/1tRlFyRb7xSoRe0V4f7Gs9ZHWKA-lsY7o/view?usp=sharing">[Download Here]</a>
