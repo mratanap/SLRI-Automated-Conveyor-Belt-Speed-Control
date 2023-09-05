@@ -204,19 +204,20 @@ from realsense_camera import *
 <br>
 <br>
 
- speed_array[]
+    speed_array[]
 &rarr; Contains speed(mm/s) calculated by the script
 
 &rarr; Will be printed out when the script ends
 
 &rarr; Use to plot graph in graph.py
 
- time_array[]
+    time_array[]
 &rarr; Contains time(s) taken by the script
 
 &rarr; Will be printed out when the script ends
 
 &rarr; Use to plot graph in graph.py
+
 
 
 
