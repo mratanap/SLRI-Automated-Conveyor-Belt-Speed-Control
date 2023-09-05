@@ -10,4 +10,4 @@ Python version 3.10 (pyrealsense2’s support for python 3.11 is unstable at thi
 
 
 
-[Yolo Mango Model]https://drive.google.com/file/d/1tRlFyRb7xSoRe0V4f7Gs9ZHWKA-lsY7o/view?usp=sharing
+[Yolo Mango Model](https://drive.google.com/file/d/1tRlFyRb7xSoRe0V4f7Gs9ZHWKA-lsY7o/view?usp=sharing)
