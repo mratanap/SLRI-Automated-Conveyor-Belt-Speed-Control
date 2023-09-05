@@ -135,10 +135,12 @@ from realsense_camera import *
 
     Camera_dist_mm **
 &rarr; Distance from camera to surface
+
 &rarr; Used to calculate objects depth
 
     mm_px_ratio **
 &rarr; Ratio that will be used to calculate size of objects
+
 &rarr; Please manually calibrate here or use aruco marker for semi-auto calibration
 
 <br>
@@ -151,6 +153,7 @@ from realsense_camera import *
 
     Irradiating Zone **
 &rarr; Straight line indicating irradiating zone
+
 &rarr; Please set coordinates of this line 
  
     irradiating_width 
@@ -193,7 +196,27 @@ from realsense_camera import *
     conveyor_vel
 &rarr; Velocity for testing conveyor belt when output velocity is too low for motor to process, usually x10 of output_vel 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+ speed_array[]
+&rarr; Contains speed(mm/s) calculated by the script
+
+&rarr; Will be printed out when the script ends
+
+&rarr; Use to plot graph in graph.py
+
+ time_array[]
+&rarr; Contains time(s) taken by the script
+
+&rarr; Will be printed out when the script ends
+
+&rarr; Use to plot graph in graph.py
 
 
 
