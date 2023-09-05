@@ -66,7 +66,8 @@ rs = RealsenseCamera()
 model_path = "C:/Users/eye18/OneDrive/Desktop/SLRI_Belt_Aug/yolov8x_best_1050.pt"
 model = YOLO(model_path)
 
-
+speed_array = []
+time_array = []
 
 prev_time = time.time()
 
@@ -198,7 +199,8 @@ while (True):
                 # print("output_vel : ",output_vel)
                 # print("conveyor_vel : ",conveyor_vel)
 
-
+            speed_array.append(output_vel)
+            time_array.append(time.time())
             
             #irradiating zone
             cv2.line(bgr_frame, irradiating_zone[0], irradiating_zone[1], (0, 255, 0), 2)
@@ -288,8 +290,8 @@ while (True):
     if cv2.waitKey(1) & 0xFF == 27:
         break
 
-
-
+print("speed_array : ",speed_array)
+print("time_array : ",time_array)
 rs.release()
 cv2.destroyAllWindows()
 # ปิดหน้าต่างทั้งหมด
