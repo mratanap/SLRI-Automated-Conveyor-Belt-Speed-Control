@@ -50,6 +50,7 @@ Python version 3.10 (pyrealsense2’s support for python 3.11 is unstable at thi
 <br> pip install ultralytics
 <br> pip install pyfirmata
 <br> pip install pyserial
+<br> pip install matplotlib
 </p>
 
 
@@ -67,6 +68,7 @@ Python version 3.10 (pyrealsense2’s support for python 3.11 is unstable at thi
 <br> from ultralytics import YOLO
 <br> import pyfirmata 
 <br> import serial
+<br> import matplotlib.pyplot as plt
 </p>
 
 
